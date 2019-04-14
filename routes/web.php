@@ -19,3 +19,25 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'HomeController@index');
+
+Route::get('/list-buku', 'ListBukuController@index');
+
+Route::get('/list-buku/math', 'MathController@index');
+
+Route::get('/list-buku/sejarah', 'SejarahController@index');
+
+Route::get('/list-buku/fisika', 'FisikaController@index');
+
+Route::get('/list-buku/kimia', 'KimiaController@index');
+
+Route::get('/list-buku/biologi', 'BiologiController@index');
+
+Route::get('/list-buku/indo', 'IndoController@index');
+
+Route::get('/list-buku/english', 'EnglishController@index');
+
+Route::get('/list-buku/sunda', 'SundaController@index');
+
+Route::get('/list-buku/agama', 'AgamaController@index');
+
+Route::get('/list-buku/senibudaya', 'SeniBudayaController@index');

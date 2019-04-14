@@ -67,6 +67,7 @@
 	<br>
 	<div class="row" >
 		<div class="col-lg-12 grid-margin stretch-card">
+		<a class = "btn btn-primary" type = "submit" href = ""> Tambah Data </a>
 			<div class="card">
 				<div class="card-body">
 					<h4 class="card-title text-Center">Data Transaksi Sedang Dipinjam</h4>

@@ -21,28 +21,28 @@
 	<body>
 		<div id="app">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-				<a class="navbar-brand" href="home">We-Lib</a>
+				<a class="navbar-brand" href="{{ url('home') }}">We-Lib</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span></button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a></li>
+					<a class="nav-link" href="{{ url('home') }}">Home <span class="sr-only">(current)</span></a></li>
 				<li class="nav-item active">
-					<a class="nav-link" href="list-buku">Daftar Buku</a></li>
+					<a class="nav-link" href="{{ url('list-buku') }}">Daftar Buku</a></li>
 				<li class="nav-item dropdown active">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jenis Buku</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Matematika</a>
-					<a class="dropdown-item" href="#">Sejarah</a>
-					<a class="dropdown-item" href="#">Fisika</a>
-					<a class="dropdown-item" href="#">Kimia</a>
-					<a class="dropdown-item" href="#">Biologi</a>
-					<a class="dropdown-item" href="#">Bahasa Indonesia</a>
-					<a class="dropdown-item" href="#">Bahasa Inggris</a>
-					<a class="dropdown-item" href="#">Bahasa Sunda</a>
-					<a class="dropdown-item" href="#">Agama</a>
-					<a class="dropdown-item" href="#">Seni Budaya</a>
+					<a class="dropdown-item" href="{{ url('list-buku/math') }}">Matematika</a>
+					<a class="dropdown-item" href="{{ url('list-buku/sejarah') }}">Sejarah</a>
+					<a class="dropdown-item" href="{{ url('list-buku/fisika') }}">Fisika</a>
+					<a class="dropdown-item" href="{{ url('list-buku/kimia') }}">Kimia</a>
+					<a class="dropdown-item" href="{{ url('list-buku/biologi') }}">Biologi</a>
+					<a class="dropdown-item" href="{{ url('list-buku/indo') }}">Bahasa Indonesia</a>
+					<a class="dropdown-item" href="{{ url('list-buku/english') }}">Bahasa Inggris</a>
+					<a class="dropdown-item" href="{{ url('list-buku/sunda') }}">Bahasa Sunda</a>
+					<a class="dropdown-item" href="{{ url('list-buku/agama') }}">Agama</a>
+					<a class="dropdown-item" href="{{ url('list-buku/senibudaya') }}">Seni Budaya</a>
 				<div class="dropdown-divider"></div>
 				</div>
 				</li>
